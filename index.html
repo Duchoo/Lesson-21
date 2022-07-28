@@ -7,6 +7,34 @@
     <title>Lesson-21</title>
   </head>
   <body>
+    <div class="messenger_container">
+      <form id="enter-messenger-form" class="enter_form">
+        <input
+          id="enter-messenger-input"
+          class="enter_input"
+          placeholder="Enter name"
+        />
+        <button class="enter_btn" type="submit">Enter</button>
+      </form>
+      <div class="messenger-wrapper">
+        <div class="active-users_wr">
+          <h3>Chat Members:</h3>
+          <div class="active-users"></div>
+        </div>
+        <div class="messenger-body">
+          <div class="messages"></div>
+          <form id="message-form">
+            <span id="typing-indicator" class="indicator"></span>
+            <textarea
+              id="message-input"
+              class="messages_inp"
+              placeholder="Send message"
+            ></textarea>
+            <button class="message_btn" type="submit">Send</button>
+          </form>
+        </div>
+      </div>
+    </div>
     <script src="js/script.js"></script>
   </body>
 </html>
